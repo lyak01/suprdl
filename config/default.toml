@@ -1,0 +1,19 @@
+[paths]
+database = "data/suprdl.db"
+cache = "data/cache"
+downloads = "data/downloads"
+library = "data/library"
+reports = "data/reports"
+
+[application]
+log_level = "INFO"
+workers = 1
+default_profile = "original"
+
+[matching]
+automatic_accept_threshold = 90
+review_threshold = 70
+
+[spotify]
+client_id_env = "SUPRDL_SPOTIFY_CLIENT_ID"
+client_secret_env = "SUPRDL_SPOTIFY_CLIENT_SECRET"
